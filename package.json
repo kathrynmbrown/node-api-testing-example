@@ -1,0 +1,12 @@
+{
+	"name": "node-api-test-example",
+	"main": "server.js",
+	"description": "Node API Test Example",
+	"dependencies": {
+		"body-parser": "1.0.1",
+		"express": "4.0"
+	},
+	"engines": {
+		"node": "0.10.33"
+	}
+}
