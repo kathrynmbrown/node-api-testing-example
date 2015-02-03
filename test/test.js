@@ -27,6 +27,7 @@ describe('User', function() {
       location1 = res.body;
     });
 
+
     api.post('/locations')
     .set('Accept', 'application/x-www-form-urlencoded')
     .send({
