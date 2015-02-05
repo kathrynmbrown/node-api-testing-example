@@ -60,6 +60,12 @@ describe('User', function() {
     });
   });
 
+  it('should return a 200 response', function(done) {
+    api.get('/users/1')
+    .set('Accept', 'application/json')
+    .expect(200,done);
+  });
+
   it('should be an object with keys and values', function(done) {
     api.get('/users/1')
     .set('Accept', 'application/json')
